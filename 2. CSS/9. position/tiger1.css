@@ -1,0 +1,71 @@
+@import url(../../common.css);
+
+#wrapper {
+  width: 50%;
+  height: 500px;
+  background: rgb(17, 18, 24);
+  margin: auto;
+  line-height: normal;
+}
+
+#wrapper h1 {
+  height: 80px;
+  color: yellowgreen;
+  font-weight: bold;
+  font-family: '굴림', sans-serif;
+  text-align: center;
+}
+
+#wrapper h1 strong {
+  font-size: 2em;
+  color: white;
+}
+
+#wrapper h1 span {
+  font-size: 1.4em;
+}
+
+#wrapper h1 em {
+  font-size: 1.7em;
+  color: lightgray;
+}
+
+.container ul {
+  float: left;
+}
+
+.container .menu  {
+  height: 450px;
+  font-size: 0.7em;
+  background: lightgray;
+  text-decoration: underline;
+  padding: 10px;
+  line-height: 1.5em;
+}
+
+
+.container .content {
+  background: white; 
+}
+
+.container .content h2 {
+  font: bold 1.3em '굴림', sans-serif;
+  color: yellow;
+  background: red;
+  padding-left: 10px;
+}
+
+.container .content p {
+  font-size: 0.7em;
+  line-height: 1.2;
+  text-align: justify;
+  padding: 10px;
+}
+
+#wrapper footer {
+  height: 20px;
+  font-size: 0.7em;
+  background: lightgray;
+  padding-left: 10px;
+  line-height: normal;
+}
