@@ -1,0 +1,133 @@
+@import url(../../common.css);
+
+/* body style */
+body {
+  background: gray;
+  font-size: 14px;
+  line-height: 1.5;
+  color: black;
+}
+
+#wrapper {
+  width: 75%;
+  margin: 0 auto;
+}
+
+/* header style */
+#wrapper header {
+  text-align: center;
+}
+
+#wrapper header h1 {
+  background: orange;
+  font-size: 50px;
+  font-weight: bold;  
+  color: white;
+}
+
+#wrapper header h1 span {
+  font-size: 18px;
+  display: block;
+}
+
+#wrapper header .stit {
+  background: lightgray;
+}
+
+.container {
+  background: white;
+}
+
+.container .side-menu {
+  float: left;
+  width: 25%;
+}
+
+.container .side-menu h3 {
+  background: red;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
+.container .side-menu li {
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  text-decoration: underline;
+  padding-left: 10px;
+}
+
+.container .main-content {
+  float: left;
+  width: 50%;
+  padding: 20px 5px;
+  background: rgb(138, 138, 138);
+}
+
+
+.container .main-content .art-piece .title {
+  background: rgb(17, 17, 90);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container .main-content .art-piece .artist {
+  color: rgb(17, 17, 90);
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.container .main-content .art-piece .detail {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.container .banner {
+  float: left;
+  width: 25%;
+  padding: 20px;
+}
+
+.container .banner h3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.container .banner .all {
+  color: lightgray;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.container .banner .love {
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+}
+
+.container .banner strong {
+  font-weight: bold;
+}
+
+.container .banner ul li {
+  padding-bottom: 10px;
+}
+
+.container .banner ul li a {
+  font-weight: bold;
+  text-decoration: underline;
+  display: block;
+}
+
+/* footer style */
+
+footer {
+  color: white;
+  background-color: rgb(17, 17, 90);
+  text-align: center;
+}
